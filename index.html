@@ -1,0 +1,302 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>守矢宽带特供广告</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- 这里可以看到输入navbar-expand-lg时，只有在屏幕尺寸大于该输入尺寸才会显示（lg即large, 大小为992px） -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand">感觉不如红魔馆</a>
+            <!-- collapse是隐藏组件，控制内容的显示与隐藏 -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <!-- ms -> margin start -->
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <div class="nav-link">勒迷你鸭</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link">湖南的鹿</div>
+                    </li>
+                    <li class="nav-item">
+                        <div class="nav-link">七鹿糯酱</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="p-5 bg-dark text-light text-center text-sm-start"> <!--padding 5-->
+        <div class="container">
+            <div class="d-flex"> <!--display flex-->
+                <div>
+                    <div>
+                        <h1><span class="text-warning">Faker</span> vs. <span class="text-warning">Bin</span>!</h1>
+                        <p class="my-4">
+                            你们知道吗，什么，不会吧？怎么可能！就在刚刚，homo馆的女仆长在人间之里张贴"<span class="Koumakan">红魔馆需要你！</span>"的招人布告，诚邀幻想乡所有优质人类入驻红魔馆大家庭！有意向者请点击上面的按钮，或者咏唱以下内容：<span
+                                class="text-warning">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati
+                                ipsum labore quia aliquam debitis officiis temporibus! Veritatis, nobis rem. Eligendi
+                                quibusdam doloribus sint dolore recusandae? Quas magni rerum nam suscipit?</span></p>
+                        <!-- my = margin y axis 这些基本都是底层类，不是组件类-->
+                        <button class="btn btn-primary btn-md w-50">了解更多</button>
+                    </div>
+                    <!-- bootstrap是支持编译自己的类的，如果你想。 -->
+                </div>
+
+                <img class="px-3 w-50 d-none d-md-block d-none" src="./img/FakerSect.jpg" alt="showcase">
+
+                <!--d-none d-md-block: 在md屏幕及以上显示，其他屏幕不显示-->
+            </div>
+        </div>
+    </section>
+    <section>
+        <section class="p-5 bg-primary text-light">
+            <div class="container">
+                <div class="d-md-flex justify-content-between align-items-center">
+                    <h3 class="mb-3 px-5">
+                        留下你的住址！晚上没太阳的时候老板会亲自出去提人！
+                    </h3>
+
+                    <div class="input-group news-input">
+                        <input type="text" class="form-control " placeholder="请输入你的住址">
+                        <button class="btn btn-dark btn-lg">注册</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="p-3 m-3">
+        <div class="container">
+            <div class="row g-4">   <!--g-4: grid gap 4 间隔-->
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title ">
+                                勒迷你鸭
+                            </div>
+                            <div class="card-text">
+                                馆内众望所归的大小姐，绝对不是吃人的吸血鬼，常识方面确实需要教育一下……
+                            </div>
+                            <button href="#" class="btn btn-primary mt-2">狠狠教育</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body  text-center">
+                            <div class="card-title">
+                                湖南的鹿
+                            </div>
+                            <div class="card-text">
+                                并不存在，不要擅自猜测她的存在，也不要擅自害怕。嗯，课堂上绝对不会出现的……
+                            </div>
+                            <button href="#" class="btn btn-dark mt-2">真的假的</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                            <div class="card-title ">
+                                七鹿糯酱
+                            </div>
+                            <div class="card-text">
+                                一位进步空间很大的学生，教她 是对教培者教育能力的终极考验和最好的锻炼方式……
+                            </div>
+                            <button href="#" class="btn btn-primary mt-2">坐起来打</button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="text-center">执教地址介绍</h1>
+    
+    <section class="p-4 img-fluid ">
+        <div class="container Mist-bg  rounded p-3">
+            <div class="row align-items-center justify-content-between text-center">
+                <div class="col-md p-3">
+                    <h2><span class="MistLake">雾之湖</span></h2>
+                    <p class="">
+                        临波而居，尊享隐世风华。私属云境，仙霭萦绕秘境。
+                        弧形观景穹廊，智能声控启幕。
+                        订制家居，大师手作。隐蔽式藏品阁，妥善典藏传世瑰宝；无界料理空间，水汽幻化无形；莹润柔光透雾系统，为夜色晕染朦胧诗章。
+                        全息仿生水纹幕墙，每一寸肌理皆蕴藏自然韵律。悬浮流云穹顶架构，邀您触摸星月辉光。<br>
+                        上面是优秀学生大妖精帮琪露诺写的期末作文
+                    </p>
+                    <a href="" class="btn btn-primary ">让我看看</a>
+                </div>
+                <div class="col-md p-3">
+                    <img src="img/mistlake.jpg" alt="A beatiful Image of Mist Lake" class="img-fluid rounded">
+                </div>  
+            </div>
+
+        </div>
+    </section>
+
+
+     <section class="p-5 img-fluid bg-dark">
+        <div class="container Koumakan-bg rounded p-3">
+            <div class="row align-items-center justify-content-between text-center">
+                <div class="col-md p-3">
+                    <img src="img\Koumakan.jpg" alt="A beatiful Image of Koumakan" class="img-fluid rounded">
+                </div>
+                <div class="col-md p-3">
+                    <h2><span class="Koumakan">红魔馆</span></h2>
+                    <!-- 十分的重点，这些text-muted之类的都是bootstrap自设颜色，目的在于同意设计风格简化css写法导致的 -->
+                    <p class="">
+                        坐拥临水美景，尽享贵族至尊。私家葱林，养生秘境。
+                        入户十米长廊，一键划动解锁。
+                        全套家具，精工匠造。隐藏式保险柜，为你守住财富和秘密；开放式厨房，油烟无处可藏；零耗电照明技术，为您点亮成功之路。
+                        全生态沃土风化外立面，每一处细节都经过百般打磨。垂吊式顶棚设计，让您感受时代的气息。<br>
+                        这一切都得感谢我们的女仆长Sakuya，她的努力让一切成为可能。
+                    </p>
+                    <a href="" class="btn btn-dark ">让我看看</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <!-- 手风琴组件 -->
+    <section class="p-3">
+        <div class="container">
+            <h1 class="text-center p-3">常见问题</h1>
+            <div class="accordion accordion-flush p-2" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                        具体需要的教学内容是什么
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>并没有很明确的教学内容</strong> 但是我们会根据你的特长和能力来分配，请放心。
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        一般会分配到什么品质的学生
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>妖精 恶魔 小妖怪</strong> 也会有一些人类，但是不多。
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        薪资如何？
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <strong>面谈</strong> 但是请放心，红魔馆教育集团不缺钱。
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    
+    <!-- 卡片组件 -->
+    <section class="p-3 bg-primary">
+        <div class="container">
+            <h1 class="p-3 text-center text-light">出产讲师介绍</h1>
+            <p class="lead text-center text-white mb-5">红魔馆品质——只为出产最强的讲师！ </p>
+        </div>
+        <div class="row g-4">
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="mb-3 rounded-circle" src="img/bucket.jpg" alt="bucket.jpg">
+                        <h3 class="card-title">铁桶讲师</h3>
+                        <p class="card-text">
+                            铁桶讲师经常戴着水桶，想让自己在教育界里显得独一无二。但实际上，他只是想要证明自己的学历而已。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="mb-3 rounded-circle" src="img/Michael.jpg" alt="bucket.jpg">
+                        <h3 class="card-title">麦口讲师</h3>
+                        <p class="card-text">
+                            舞者讲师富含艺术张力和创造力，擅长舞蹈的唱歌，他的最新唱片“比利金丝”在讲师界的人气正急速飙升。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="mb-3 rounded-circle" src="img/trebuchet.jpg" alt="bucket.jpg">
+                        <h3 class="card-title">投石车讲师</h3>
+                        <p class="card-text">
+                            擅长计算物理抛物线运动，利用弹射器发射物品，他曾说抛物是门艺术，尤其篮球，是最佳且明显的选择。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="card bg-light">
+                    <div class="card-body text-center">
+                        <img class="mb-3 rounded-circle" src="img/drown.jpg" alt="bucket.jpg">
+                        <h3 class="card-title">偷狗讲师</h3>
+                        <p class="card-text">
+                            对不起，这就是个偷狗，不过就偷也算得上一门学问，上面的讲师介绍都是他趁宝开不注意偷来修改掉的。
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+     </section>
+    
+     <!-- list-group组件 -->
+     <section class="p-3">
+        <div class="container">
+            <h1 class="text-center p-3">联系我们</h1>
+            
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">联系电话：8848-114514</li>
+                <li class="list-group-item">邮箱：5141919810@GensokyoMail.com</li>
+                <li class="list-group-item">结界内发行商：文文新闻</li>
+                <li class="list-group-item">结界外宣传：https://github.com/MaruAya20</li>
+            </ul>
+     </section>
+    <footer class="p-5 bg-dark text-center">
+        <div class="container">
+            <p class="lead text-light">Copyright &copy; 2025 红魔馆教育集团 </p>
+        </div>
+
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

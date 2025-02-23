@@ -1,0 +1,32 @@
+.large {
+    font-size: 45px;
+}
+.welcome {
+    color: #00ffe5;
+}
+@media (min-width: 768px) {
+    .news-input {
+        width: 60%;
+    }
+}
+.Koumakan{
+    color: rgb(176, 0, 0);
+    font-style: italic;
+    font-weight: 700;
+}
+.MistLake{
+    color: #2d84ff;
+    font-style: italic;
+    font-weight: 700;
+}
+.Mist-bg{
+    background-color: rgba(188, 212, 233, 0.541);
+}
+.Koumakan-bg{
+    background-color: rgba(175, 116, 116, 0.783);
+}
+.body-before{
+    display: block;
+    content: '';
+    height: 56px;
+}
